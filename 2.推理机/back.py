@@ -11,7 +11,7 @@ class Rule():
 def load_rule(path):
     P_list = []
     Q_list = []
-    with open(path, 'r') as f:
+    with open(path, 'r' , encoding="utf-8") as f:
         lines = f.readlines()
         for line in lines:
             if line:

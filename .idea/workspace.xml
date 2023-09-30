@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a97eb28-dc0a-4acd-87f0-c053d57a9fc0" name="Default Changelist" comment="" />
+    <list default="true" id="3a97eb28-dc0a-4acd-87f0-c053d57a9fc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.推理机/back.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.推理机/back.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.推理机/forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.推理机/forward.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +33,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="d758a45eb8766fe3f7bbfff6f9957d400ef63205" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2W6VRlsyGW2FZ9CVCdfOS7fHpnQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,14 +52,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project_code\python_project\Public_Project\expert-system\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.back">
+    <configuration name="back" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="expert-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.推理机" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.推理机/back.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tic-tac-toe-minimax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="expert-system" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,11 +107,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tic-tac-toe-minimax" />
+        <item itemvalue="Python.back" />
+        <item itemvalue="Python.tic-tac-toe-minimax" />
+        <item itemvalue="Python.back" />
+        <item itemvalue="Python.back" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\gwj\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696053015124</updated>
-      <workItem from="1696053029595" duration="2372000" />
+      <workItem from="1696053029595" duration="3526000" />
+      <workItem from="1696058477105" duration="257000" />
     </task>
     <servers />
   </component>
@@ -93,36 +133,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1696057229581">
+    <state x="354" y="24" key="CommitChangelistDialog2" timestamp="1696058775349">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1696057229581" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1696057133992">
+    <state x="354" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1696058775349" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1696058323831">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1696057133992" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1696057133992">
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1696058323831" />
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1696058357100">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1696057133992" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1696057133991">
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1696058357100" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1696058418220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1696057133991" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1696057133992">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1696058418220" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1696058418219">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1696057133992" />
-    <state x="270" y="74" key="SettingsEditor" timestamp="1696053076103">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1696058418219" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1696058418219">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1696053076103" />
-    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1696053031382">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1696058418219" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1696058418220">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1696053031382" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1696058418220" />
+    <state x="249" y="186" width="996" height="707" key="SettingsEditor" timestamp="1696058103883">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="186" width="996" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1696058103883" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1696057476061">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1696057476061" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1696058720781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1696058720781" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/expert_system$game.coverage" NAME="game Coverage Results" MODIFIED="1696056878500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.井字棋" />
+    <SUITE FILE_PATH="coverage/expert_system$back.coverage" NAME="back Coverage Results" MODIFIED="1696057704463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.推理机" />
   </component>
 </project>
