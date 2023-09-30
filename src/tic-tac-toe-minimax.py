@@ -58,6 +58,7 @@ class Computer(Player):
         Player.__init__(self, chess)
 
     def minimax(self, board, player, next_player, alpha=-2, beta=2):
+        # 递归结束条件为其中一方胜利或者二者平局，如果是电脑方胜利的话，那么就返回+1，反之为-1.
         if winner(board, COMPUTER):  # 电脑胜利
             return +1
         if winner(board, HUMAN):  # 人类胜利
@@ -65,13 +66,14 @@ class Computer(Player):
         elif not empty(board):
             return 0  # 平局
 
+        # ========================极大极小树遍历================================
         for move in range(ROW * COL):
-            if board[move] == SPACE:  # 尝试下棋
-                board[move] = player  # 记录
-                val = self.minimax(board, next_player, player, alpha, beta)  # 继续思考对手怎么下棋
+            if board[move] == SPACE:
+                board[move] = player
+                val = self.minimax(board, next_player, player, alpha, beta)
                 board[move] = SPACE  # 重置
 
-                # Alpha - beta pruning and Max - minium Tree algorithm
+                # 更新alpha跟beta的数值
                 if player == COMPUTER:  # 极大 max value
                     if val > alpha:
                         alpha = val
@@ -83,6 +85,8 @@ class Computer(Player):
                         beta = val
                     if beta <= alpha:  # 剪枝
                         return alpha
+
+        # ========================极大极小树遍历结束==============================
 
         if player == COMPUTER:
             return alpha
